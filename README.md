@@ -1,7 +1,6 @@
-# Desafio Capítulo 09 do Bootcamp React da DevSuperior
-Desafio para entregar  - TAREFA: MovieFlix front inicial
-Design Figma
-https://www.figma.com/file/Yul1TnqQXmBsLwm5h5nvJu/MovieFlix-front-inicial
+#Desafio bds09
+
+Desafio para entregar - TAREFA: MovieFlix front inicial Design Figma https://www.figma.com/file/Yul1TnqQXmBsLwm5h5nvJu/MovieFlix-front-inicial
 
 Construa um pequeno app conforme design acima. Este app deverá se comunicar com o seu back end desenvolvido na tarefa “MovieFlix casos de uso” do Capítulo 5, e deve atender os requisitos abaixo:
 
@@ -19,25 +18,25 @@ Na tela de detalhes do filme, caso o usuário possua o perfil MEMBER, deve ser e
 
 Na tela de detalhes do filme, abaixo do card de formulário, deve aparecer um outro card com uma listagem de TODAS avaliações daquele filme (não esqueça o atributo “key” em cada item renderizado). Quando um usuário MEMBER informar com sucesso uma nova avaliação, esta listagem deve ser atualizada.
 
-As telas listagem de filmes e detalhes do filme devem ser rotas protegidas. Se o usuário não autenticado tentar acessar diretamente essas rotas, ele deve ser redirecionado para a tela de login.
-Sugestão de passos para implementar o projeto:
+As telas listagem de filmes e detalhes do filme devem ser rotas protegidas. Se o usuário não autenticado tentar acessar diretamente essas rotas, ele deve ser redirecionado para a tela de login. Sugestão de passos para implementar o projeto:
 
-1) Faça o layout da tela de login, respondendo pela rota /
+    Faça o layout da tela de login, respondendo pela rota /
 
-2) Faça a requisição de autenticação e o redirecionamento para a rota /movies
+    Faça a requisição de autenticação e o redirecionamento para a rota /movies
 
-3) Faça também o tratamento para o login inválido
+    Faça também o tratamento para o login inválido
 
-4) Faça a parte de salvar os dados de autenticação no localStorage e das requisições autorizadas, e faça a listagem de filmes (requisição autorizada)
+    Faça a parte de salvar os dados de autenticação no localStorage e das requisições autorizadas, e faça a listagem de filmes (requisição autorizada)
 
-5) Faça  a parte de redirecionar para tela de login caso seja acessada uma rota não autorizada
+    Faça a parte de redirecionar para tela de login caso seja acessada uma rota não autorizada
 
-6) Implemente o botão Sair com Context API
+    Implemente o botão Sair com Context API
 
-7) Faça a tela de detalhes do filme, inicialmente somente com a listagem das avaliações
+    Faça a tela de detalhes do filme, inicialmente somente com a listagem das avaliações
 
-8) Faça card de formulário de avaliação, e só apresente o mesmo se o usuário logado tiver o perfil MEMBER
+    Faça card de formulário de avaliação, e só apresente o mesmo se o usuário logado tiver o perfil MEMBER
 
-9) Implemente a validação do formulário (não aceitar o campo em branco)
+    Implemente a validação do formulário (não aceitar o campo em branco)
 
-10) Implemente o envio do formulário de avaliação e a atualização da listagem de avaliações após o envio do formulário
+    Implemente o envio do formulário de avaliação e a atualização da listagem de avaliações após o envio do formulário
+
